@@ -1,0 +1,5 @@
+﻿{
+  "vendor_repo": "https://github.com/kevinlrankin-ux/ccbp-siemens-conveyor-line",
+  "integration_mode": "immutable_input",
+  "notes": "PDI consumes this repository as an industrial control source and does not modify vendor contents directly."
+}

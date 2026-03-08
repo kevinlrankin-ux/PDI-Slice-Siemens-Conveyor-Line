@@ -1,0 +1,23 @@
+﻿slice_name: siemens-conveyor-line
+
+purpose: wrapper slice for Siemens conveyor line industrial control environment
+
+produces:
+  - siemens_control_environment
+  - conveyor_control_surface
+
+consumes:
+  - siemens_vendor_repo
+  - control_runtime
+
+modifies:
+  - siemens/
+  - docs/
+  - contracts/
+
+templates:
+  - templates/siemens/README.md
+
+governance_ready:
+  - control_boundary
+  - commissioning_verification
